@@ -1,0 +1,22 @@
+﻿{
+  "specFlow": {
+    "livingDocGenerator": {
+      "enabled": true,
+      "filePath": "TestExecution.json"
+    },
+    "unitTestProvider": {
+      "name": "NUnit",
+      "generatorProvider": {
+        "name": "NUnit",
+        "args": {
+          "allowRowTests": true,
+          "parallel": true
+        }
+      }
+    },
+    "NRetrySettings": {
+      "maxRetries": 0,
+      "applyGlobally": false
+    }
+  }
+}
